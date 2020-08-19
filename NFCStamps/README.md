@@ -1,7 +1,7 @@
 # Setting up
 
-This project is created by AI Nomads
-You must have an Iphone 8 or newer
+-This project is created by AI Nomads
+-You must have an Iphone 8 or newer
 
 
 ## Enabling NFC Tags reading
