@@ -15,7 +15,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--NFC example-->
+        <!--NFC Tagging-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="NFCTouch" id="BYZ-38-t0r" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2aE-gn-nz0">
                                 <rect key="frame" x="50" y="372" width="275" height="255"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NFC example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78K-Xm-TG0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AI Nomad's Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78K-Xm-TG0">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="29.5"/>
                                         <fontDescription key="fontDescription" name="BrandonText-Medium" family="Brandon Text" pointSize="21"/>
                                         <nil key="textColor"/>
@@ -85,7 +85,7 @@
                             <constraint firstItem="dAR-Fn-pzp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zqO-dU-aHJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="NFC example" id="n80-rW-ZB9">
+                    <navigationItem key="navigationItem" title="NFC Tagging" id="n80-rW-ZB9">
                         <barButtonItem key="backBarButtonItem" title="Back" id="eqZ-Qa-ZGX"/>
                     </navigationItem>
                 </viewController>
@@ -106,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJY-pr-ehE">
-                                <rect key="frame" x="82.5" y="591" width="210.5" height="36"/>
+                                <rect key="frame" x="80" y="591" width="215.5" height="36"/>
                                 <fontDescription key="fontDescription" name="BrandonText-Medium" family="Brandon Text" pointSize="17"/>
                                 <state key="normal" title="Collect stars">
                                     <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -149,8 +149,8 @@
                                     <constraint firstAttribute="width" secondItem="cBz-f4-6Ki" secondAttribute="height" multiplier="375:328" id="83L-hu-UfL"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collect 5 stars to get free coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66i-7U-mTc">
-                                <rect key="frame" x="82.5" y="418" width="210.5" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collect 5 stars to get a free drink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66i-7U-mTc">
+                                <rect key="frame" x="80" y="418" width="215.5" height="17"/>
                                 <fontDescription key="fontDescription" name="SlateStd-Bk" family="Slate Std" pointSize="17"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -197,7 +197,7 @@
                                     <constraint firstAttribute="width" secondItem="iji-vC-t6N" secondAttribute="height" multiplier="375:328" id="Jm8-LR-Vng"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enjoy free (virtual) coffee at Clary's Cafe!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="uuw-tg-nll">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enjoy a free (virtual) drink at AI Nomad's Bar!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="uuw-tg-nll">
                                 <rect key="frame" x="16" y="438" width="334" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="291" id="9sA-0T-CSA"/>
