@@ -1,5 +1,9 @@
 //
-// Please report any problems with this app template to contact@estimote.com
+//  CollectStartsViewController.swift
+//  NFCStamps
+//
+//  Created by Eddie Ruiz on 8/19/20.
+//  Copyright © 2020 AI Nomads.llc. All rights reserved.
 //
 
 import UIKit

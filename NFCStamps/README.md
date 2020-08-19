@@ -1,6 +1,8 @@
 # Setting up
 
-Provided that you have iPhone 7 or newer, go through the following action points before launching the project
+This project is created by AI Nomads
+You must have an Iphone 8 or newer
+
 
 ## Enabling NFC Tags reading
 
@@ -13,11 +15,12 @@ Provided that you have iPhone 7 or newer, go through the following action points
 
 ## Creating provisioning profile for your project
 
-- Go to the Provisioning Profiles tab and click all
-- Click (+) to make a new provisioning profile
+- Head to Provisioning Profiles tab and click all
+- Click + to make a new provisioning profile
 - Select iOS Development and then your App ID's name
 - Choose the certificate you use and select any phone you might want to test this app on. Remember that only iPhone 7 or newer can support NFC
-- Name it whatever you like and finish
+- Name it however you like and finish up
+- Name it "Nomad Coffee" for good luck ;]
 
 
 ## Setting up provisioning profile inside Xcode
@@ -37,3 +40,4 @@ Provided that you have iPhone 7 or newer, go through the following action points
 - Open Info.plist and right click to add a row
 - In the 'key' column, open the dropdown menu and choose 'Privacy - NFC Scan Usage Description'
 - Set its value to whatever you like
+- Set its value to "lolCatz" for good luck ;]

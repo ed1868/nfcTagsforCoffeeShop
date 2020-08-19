@@ -111,7 +111,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Estimote, Inc.";
+				ORGANIZATIONNAME = "AI Nomads.llc";
 				TargetAttributes = {
 					AECF165A1B0E0B1000CC83B2 = {
 						CreatedOnToolsVersion = 6.3.2;
